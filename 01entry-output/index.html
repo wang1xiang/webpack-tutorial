@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- type = module ES Modules提出的标准 用来区分加载的是普通js脚本还是模块 -->
+  <!-- 对于不支持ES Modules的浏览器 需使用wenpack这样的工具 -->
+  <!-- <script src="src/index.js" type="module"></script> -->
+  <script src="dist/main.js"></script>
+</body>
+</html>
+
+<!-- 引入webpack 
+  1.由于webpack是一个npm工具模块 初始化package.json 用来管理npm依赖版本 npm init --yes
+  2.安装webpack核心模块及它的cli模块 npm i webpack webpack-cli --save-dev
+  webpack是Webpack的核心模块 webpack-cli是Webpack的cli程序
+
+  npx webpack --version npx是npm5.2新增命令 更方便执行远程模块或node_modules中的cli程序
+  npx webpack 打包js模块代码
+  webpack4 默认src/index.js为打包入口 打包结果存放到dist/main.js中 根据代码的模块导入操作 将所有的模块代码打包到一起
+
+  "build": "webpack" Webpack 命令定义到 npm scripts 中 每次使用起来会更加方便
+-->

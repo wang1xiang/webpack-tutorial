@@ -1,0 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+/* console.log('sdsd') 
+   只是为了证明 Webpack 默认按照 JS 语法解析模块
+*/
