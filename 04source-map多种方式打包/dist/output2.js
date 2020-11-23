@@ -1,0 +1,1 @@
+(()=>{"use strict";const n=(()=>{console.log("Heading~");const n=document.createElement("h2");return n.textContent="Hello world",n.classList.add("heading"),n.addEventListener("click",(()=>{alert("Hello webpack")})),n})();document.body.append(n),console.log("main.js running"),console.log111("main.js running")})();
